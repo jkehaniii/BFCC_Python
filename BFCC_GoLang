@@ -1,0 +1,28 @@
+package main
+
+import (
+    "fmt"
+    "unicode"
+)
+
+func main() {
+    message:= "come over here watson"
+    for i, c := range message{
+        fmt.printf("%2d %c\n", i, unicode.IsUpper(c))
+    }
+}
+
+package main
+
+import (
+    "fmt"
+    "strings"
+)
+
+func main() {
+    alphabet := "abcdefghijklmnopqrstuvwxyz"
+    ALPHABET := "ABCDEFGHIJKLMPNOPQRSTUVWXYZ"
+
+    res1 := strings.Index(alphabet, "c")
+    ftm.Println("Result 1: ", res1)
+}
